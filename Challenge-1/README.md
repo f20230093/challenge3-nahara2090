@@ -1,17 +1,26 @@
 # Challenge 1: Image Repair + Style Transformation
 
-This folder contains my submission for Challenge 1.
+This project demonstrates image degradation, image reconstruction, and style transformation using a small flower dataset.
 
-## Files included
-- challenge1_image_repair.ipynb
-- output images
-- explanation of the workflow
+## Dataset
+A small subset of 30 flower images was used:
+- 10 daisy
+- 10 rose
+- 10 sunflower
 
-## Summary
-For this challenge, I used a small flower image dataset consisting of 30 images from three classes: daisy, rose, and sunflower.
+## Workflow
+1. Load and resize images
+2. Apply degradation using Gaussian blur and Gaussian noise
+3. Train a convolutional autoencoder to reconstruct the original images
+4. Apply a cartoon style transformation to the repaired outputs
 
-The workflow included:
-1. image loading and preprocessing
-2. image degradation using Gaussian blur and Gaussian noise
-3. image reconstruction using a convolutional autoencoder
-4. style transformation using a cartoon effect
+## Outputs
+- Degraded input images
+- Repaired images
+- Stylized images
+
+## Tools Used
+- Python
+- OpenCV
+- TensorFlow / Keras
+- Google Colab
