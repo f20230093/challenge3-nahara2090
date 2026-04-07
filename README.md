@@ -1,3 +1,4 @@
+This repo contains both challenge 3 and challenge 1
 # Challenge 3 – Nahara 2090: The Last Oasis
 
 ## Overview
